@@ -35,19 +35,21 @@ This project simulates a real-world scenario where sales data is analyzed to det
 
 ## 🗂 Dataset
 
-The dataset is **simulated**, but inspired by a real business context from a retail company.
+The dataset is **simulated**, but built around a real business logic observed in multi-branch retail operations.
+
+The data was intentionally designed to reflect **localized demand behavior**: certain products rotate significantly faster in Río Grande branches than in Ushuaia, and vice versa. This asymmetry is the core of the inventory rotation analysis and mirrors a real operational problem where stock imbalances between locations went undetected without systematic data analysis.
 
 Dataset characteristics:
 
 • 🏬 4 branches  
-• 📦 1,728 unique products  
-• 📑 23,649 sales records  
-• 🧾 ~9,400 transactions  
-• 📦 ~71,000 units sold  
+• 📦 1,786 unique products  
+• 📑 25,664 sales records  
+• 🧾 ~11,455 transactions  
+• 📦 ~75,082 units sold  
 
 💰 Total revenue analyzed:
 
-**$186,239,484**
+**$196,040,109**
 
 ---
 
@@ -181,7 +183,7 @@ This provides **actionable insights for inventory optimization**.
 
 • 🏬 Product demand varies significantly across branches, suggesting location-specific purchasing behavior.
 
-• 🔄 Several products show **high velocity in one branch but low velocity in another**, indicating potential inventory reallocation opportunities.
+• 🔄 Several products show **high velocity in Río Grande but low velocity in Ushuaia**, and vice versa — indicating concrete inventory reallocation opportunities that would go undetected without systematic data analysis.
 
 • 📦 Product segmentation reveals both **high-volume operational items** and **high-revenue niche products**.
 
@@ -250,19 +252,21 @@ Este proyecto simula un escenario real donde se analizan datos de ventas para de
 
 ## 🗂 Dataset
 
-El dataset es **simulado**, pero construido en base a una lógica de negocio real.
+El dataset es **simulado**, pero construido en base a una lógica de negocio real observada en operaciones retail con múltiples sucursales.
+
+Los datos fueron diseñados intencionalmente para reflejar **comportamientos de demanda localizados**: ciertos productos rotan significativamente más rápido en las sucursales de Río Grande que en Ushuaia, y viceversa. Esta asimetría es el núcleo del análisis de rotación de inventario y refleja un problema operativo real donde los desbalances de stock entre ubicaciones pasaban desapercibidos sin un análisis sistemático de datos.
 
 Características principales:
 
 • 🏬 4 sucursales  
-• 📦 1.728 productos únicos  
-• 📑 23.649 registros de ventas  
-• 🧾 ~9.400 transacciones  
-• 📦 ~71.000 unidades vendidas  
+• 📦 1.786 productos únicos  
+• 📑 25.664 registros de ventas  
+• 🧾 ~11.455 transacciones  
+• 📦 ~75.082 unidades vendidas  
 
 💰 Revenue total analizado:
 
-**$186.239.484**
+**$196.040.109**
 
 ---
 
@@ -390,7 +394,7 @@ Este análisis permite detectar **oportunidades concretas de mejora operativa**.
 
 • 🏬 La demanda varía significativamente entre sucursales, lo que sugiere comportamientos de consumo localizados.
 
-• 🔄 Se detectan productos con alta rotación en una sucursal y baja en otra, lo que abre oportunidades de redistribución de stock.
+• 🔄 Se detectan productos con **alta rotación en Río Grande y baja en Ushuaia**, y viceversa — evidenciando oportunidades concretas de redistribución de stock que pasarían desapercibidas sin un análisis sistemático de datos.
 
 • 📦 Se identifican tanto productos de alto volumen (operativos) como productos de alto valor (estratégicos).
 
